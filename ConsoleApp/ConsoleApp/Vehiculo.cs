@@ -9,10 +9,12 @@ namespace ConsoleApp
     class Vehiculo
     {
         public decimal VelocidadMax { get; set; }
+        public int NumeroDePuertas { get; set; }
 
-        public Vehiculo(decimal velocidadMax) 
+        public Vehiculo(decimal velocidadMax, int numeroDePuertas)
         {
             VelocidadMax = velocidadMax;
+            NumeroDePuertas = numeroDePuertas;
         }
 
     }
