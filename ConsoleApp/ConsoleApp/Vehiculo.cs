@@ -14,5 +14,6 @@ namespace ConsoleApp
         {
             VelocidadMax = velocidadMax;
         }
+
     }
 }
