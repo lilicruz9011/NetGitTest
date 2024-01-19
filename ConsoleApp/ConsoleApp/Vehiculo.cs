@@ -10,11 +10,13 @@ namespace ConsoleApp
     {
         public decimal VelocidadMax { get; set; }
         public int NumeroDePuertas { get; set; }
+        public decimal PrecioVehiculo { get; set; }
 
-        public Vehiculo(decimal velocidadMax, int numeroDePuertas)
+        public Vehiculo(decimal velocidadMax, int numeroDePuertas, decimal precioVehiculo)
         {
             VelocidadMax = velocidadMax;
             NumeroDePuertas = numeroDePuertas;
+            PrecioVehiculo = precioVehiculo;
         }
 
     }
