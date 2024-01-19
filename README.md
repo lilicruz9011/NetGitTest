@@ -1,2 +1,2 @@
 # NetGitTest
-testGit1
+testGit2
